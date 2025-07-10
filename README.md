@@ -5,6 +5,14 @@ meant to be used in development and QA environments.
 
 The project is originally extracted from a number of [RabbitMQ](https://rabbitmq.com) test suites.
 
+```sh
+git clone https://github.com/wachira90/rabbitmq-tls-gen.git
+cd rabbitmq-tls-gen/basic
+make PASSWORD=Th1sPasSWordHere
+make verify
+make info
+ls -l ./result
+```
 
 ## What It Does
 
